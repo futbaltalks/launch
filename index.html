@@ -8,6 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="format-detection" content="telephone=no">
+
+ 
+  
   <!-- Favicon -->
   <link rel="shortcut icon" href="lib/img/favicon.ico">
   <!-- Bootstrap -->
@@ -68,7 +71,7 @@
             subscribe to be notifed.
           </p>
           <div data-animation='fadeInDown' data-animation-delay='600' data-out-animation='fadeOutUp' data-out-animation-delay='800'>
-            <form class="notify" method="post" action="http://template.oceanside.itembridge.com/lib/php/notify-me.php">
+            <form class="notify" method="post" netlify>
               <div class="btn">
                 <label for="exampleInputEmail1">NOTIFY ME</label>
                 <input class="form-control" id="exampleInputEmail1" name="subscribe" placeholder="Email" >
@@ -128,18 +131,18 @@
               <div class="col-sm-4">
                 <div class="phone">
                   <i>Call Us</i>
-                  <p>+99(004) 987-654-3210</p>
+                  <p>+233 50 1371353</p>
                 </div>
               </div>
               <div class="col-sm-4">
                 <div class="email">
                   <i>write us a email</i>
-                  <p>contact@yourcompany.com</p>
+                  <p>contact@futbaltalks.com</p>
                 </div>
               </div>
             </div>
           </div>
-          <form action='http://template.oceanside.itembridge.com/lib/php/contact-form.php' class='contact-form' data-animation='fadeInRight' data-animation-delay='400' data-out-animation='fadeOutRight'>
+          <form  method="POST" data-netlify="true" class='contact-form' data-animation='fadeInRight' data-animation-delay='400' data-out-animation='fadeOutRight'>
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group">
@@ -223,6 +226,7 @@
     </div>
   </footer>
   <!-- javascript -->
+  
   <script src="lib/js/jquery-1.11.2.min.js"></script>
   <script src="lib/js/jquery-ui-1.10.3.custom.min.js"></script>
   <script src="lib/js/bootstrap.min.js"></script>
